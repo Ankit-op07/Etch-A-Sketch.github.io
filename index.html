@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sketchBoard</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="control_area">
+        <h1 class="logo" >Etch-a-sketch</h1>
+        <div class="controls">
+          <input type="color" id="favcolor" name="favcolor" value="#fe0000">
+          <input type="button" class="btn color " value="Color mode">
+          <input type="button" class="btn rainbow" value="Rainbow mode">
+          <input type="button" class="btn eraser" value="Eraser">
+          <input type="button" class="btn clear" value="Clear">
+          <div id="pixels"><span class="show"></span> x <span class="show"></span></div>
+          <input id="sizeSlider" class="myrange" type="range" value="16" min="1" max="64" >
+        </div>
+      </div>
+
+      <div class="board_area">
+  
+        <div class="board"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

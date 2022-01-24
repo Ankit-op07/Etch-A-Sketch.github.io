@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Roboto:wght@100&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "SF Pro Text","Myriad Set Pro",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","SF Pro Icons","Apple Legacy Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.main{
+    display:flex;
+    height:100vh;
+    width:100vw;
+    
+}
+.control_area{
+width:30%;
+height:100%;
+background-color: #c0c0c0;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.board_area{
+    
+    width:70%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    height: 480px;
+    width: 480px;
+   
+    display:flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+/* .pixel{
+   
+    
+} */
+li{
+    list-style-type: none;
+}
+
+.control_area{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.controls  {
+   
+   height:480px;
+   width:200px;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   gap:30px;
+}
+.btn{
+    width: 100%;
+    color: inherit;
+    font-size: 18px;
+   
+    font-weight: 500;
+    
+    
+    cursor: pointer;
+    outline: none;
+    padding: 10px 20px;
+    border: 0px solid ;
+    border-radius: 5px;
+    transition: transform 0.1s ease-in-out;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.myrange{
+    margin-top: -10px;
+    width:100%;
+    height: 50px;
+    color:black;
+    
+}
+#favcolor{
+    -webkit-appearance: none;
+    width:80px;
+    height:80px;
+    
+  
+}
+#pixels{
+    font-size:25px;
+    font-weight:500;
+}
+.logo{
+    margin:30px;
+    color:#333333;
+}
